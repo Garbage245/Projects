@@ -9,3 +9,4 @@ public class First{
         System.out.println("Median Salary: $130,390");
     }
 }
+// Test
