@@ -1,7 +1,5 @@
 // Myron Sago II
 // 2/2/2026
-
-import java.util.Scanner;
 public class Pet{
     // Pet name, type, and age
     private String petName;
@@ -64,17 +62,5 @@ public class Pet{
         output += getAge();
         output += "\n";
         return output;
-    }
-
-    public static void main(String[] args){
-    // Creates 2 pets and a scanner
-    // Sets pet names to user input and prints out pet information
-        Pet pet1 = new Pet();
-        Pet pet2 = new Pet();
-        Scanner helpy = new Scanner(System.in);
-        pet1.setName(helpy.nextLine());
-        pet2.setName(helpy.nextLine());
-        System.out.println(pet1.ToString());
-        System.out.println("\n" + pet2.ToString());
     }
 }
