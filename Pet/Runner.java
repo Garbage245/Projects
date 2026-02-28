@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 public class Runner{
-    public static void main(String[] args) {
+    public static void main() {
         Scanner helpy = new Scanner(System.in);
         Pet pet1 = new Pet();
         Pet pet2 = new Pet("Kris", "Dog", 8);

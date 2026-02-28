@@ -1,8 +1,12 @@
 public class Animal{
     // species variable
     private String species;
-    
-    // constructor that immediately sets the species
+
+    public Animal(){
+        species = ""
+    }
+
+    // constructor that sets species to an input
     public Animal(String newSpecies){
         setSpecies(newSpecies);
     }
@@ -14,11 +18,12 @@ public class Animal{
 
     // returns species variable
     public String getSpecies(){
-        rerturn species
+        return species;
     }
 
     // returns animal information
     public String toString(){
         String output = "Animal Information:\n Species: " + species;
+        return output;
     }
 }

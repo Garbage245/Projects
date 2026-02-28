@@ -1,7 +1,6 @@
 public class TryMath
 {
-    public static void main(String[] args)
-    {
+    public static void main(){
         // TODO: Change the code below to compute
         //       the absolute value of -4,
         //       the square root of 9,

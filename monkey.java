@@ -6,4 +6,7 @@ public class monkey{
   public void act2(){
     System.out.println("ah ah");
   }
+  public static void act3(){
+    System.out.println("this is some real monkey business");
+  }
 }
