@@ -3,7 +3,7 @@ public class Animal{
     private String species;
 
     public Animal(){
-        species = ""
+        species = "";
     }
 
     // constructor that sets species to an input
