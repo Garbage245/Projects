@@ -29,4 +29,12 @@ public class Calc{
     public double getNum2(){
         return num2;
     }
+    public String toString(){
+        String output = "";
+        output += "Num1: ";
+        output += num1;
+        output += "\nNum2: ";
+        output += num2;
+        return output;
+    }
 }
