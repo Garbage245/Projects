@@ -39,7 +39,6 @@ public class Calc{
                 char check = input.charAt(x);
                 if (check == '0' || check == '1' || check == '2' || check == '3' || check ==  '4' || check == '5' || check == '6' || check == '7' || check == '8' || check == '9'){
                     if (x == input.length() - 1){
-                        int number = Integer.parseInt(input);
                         condition = false;
                     }
                     else {
