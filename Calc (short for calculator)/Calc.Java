@@ -33,11 +33,26 @@ public class Calc{
     public double validation(){
         Scanner helpy = new Scanner(System.in);
         String input = helpy.nextLine();
+        int decimalCounter = 0;
         boolean condition = true;
         while (condition == true){
             for (int x = 0; x < input.length(); x++){
                 char check = input.charAt(x);
                 if (check == '0' || check == '1' || check == '2' || check == '3' || check ==  '4' || check == '5' || check == '6' || check == '7' || check == '8' || check == '9'){
+                    if (x == input.length() - 1){
+                        condition = false;
+                    }
+                    else {
+                        continue;
+                    }
+                }
+                else if (check == '.'){
+                    decimalCounter += 1;
+                    if (decimalCounter > 1){
+                        System.out.println("Your input is invalid. Please try again.");
+                        input = helpy.nextLine();
+                        break;
+                    }
                     if (x == input.length() - 1){
                         condition = false;
                     }
@@ -52,7 +67,7 @@ public class Calc{
                 }
             }
         }
-        return Integer.parseInt(input);
+        return Double.parseDouble(input);
     }
 
     public String toString(){
