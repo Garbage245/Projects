@@ -1,15 +1,15 @@
 public class Exam extends Assessment{
     // Declares variables for points each question is worth
-    private int pointsEach;
+    private double pointsEach;
     
     // calculates points each and sets score
     public Exam(int NOQ, int MQ){
-        pointsEach = 1/NOQ;
-        super.setScore(((NOQ-MQ)/NOQ)*100);
+        pointsEach = 100/NOQ;
+        setScore(pointsEach*(NOQ-MQ));
     }
 
     // returns the amount of points each question is worth
-    public float getPointsEach(){
+    public double getPointsEach(){
         return pointsEach;
     }
 }
