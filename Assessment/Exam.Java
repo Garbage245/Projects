@@ -4,7 +4,7 @@ public class Exam extends Assessment{
     
     // calculates points each and sets score
     public Exam(int NOQ, int MQ){
-        pointsEach = 1/NQs;
+        pointsEach = 1/NOQ;
         super.setScore(((NOQ-MQ)/NOQ)*100);
     }
 
