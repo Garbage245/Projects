@@ -1,6 +1,6 @@
 public class Exam extends Assessment{
     // Declares variables for points each question is worth
-    private double pointsEach;
+    private int pointsEach;
     
     // calculates points each and sets score
     public Exam(int NOQ, int MQ){
@@ -9,7 +9,7 @@ public class Exam extends Assessment{
     }
 
     // returns the amount of points each question is worth
-    public double getPointsEach(){
+    public int getPointsEach(){
         return pointsEach;
     }
 }
