@@ -4,8 +4,13 @@ public class Exam extends Assessment{
     
     // calculates points each and sets score
     public Exam(int NOQ, int MQ){
+        try{
         pointsEach = 100/NOQ;
         setScore(pointsEach*(NOQ-MQ));
+        }
+        catch (ArithmeticException number){
+            System.out.println("ArithmeticException: / by zero");
+        }
     }
 
     // returns the amount of points each question is worth
