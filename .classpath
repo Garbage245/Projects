@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Calc (short for calculator)/|Pet/|Tests/|turt/|Assessment/|IntArray/" kind="src" path="Java"/>
+	<classpathentry kind="src" path="Java/Assessment"/>
+	<classpathentry kind="src" path="Java/Calc (short for calculator)"/>
+	<classpathentry kind="src" path="Java/IntArray"/>
+	<classpathentry kind="src" path="Java/Pet"/>
+	<classpathentry kind="src" path="Java/Tests"/>
+	<classpathentry kind="src" path="Java/turt"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
