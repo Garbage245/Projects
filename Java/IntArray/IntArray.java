@@ -1,9 +1,9 @@
-import java.util.Random;
 import java.util.Arrays;
+import java.util.Random;
 public class IntArray{
     Random helpy = new Random();
-    private arraySize = input;
-    private array = new int[input];
+    private int arraySize;
+    private int[] array;
    
     public IntArray (int input){
         arraySize = input;
