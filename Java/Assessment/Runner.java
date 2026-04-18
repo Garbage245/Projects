@@ -32,8 +32,14 @@ public class Runner {
 
                 System.exit(0);
             }
+            // If the input is not a number an error message is received
             catch (NumberFormatException number){
                 System.out.println("Input is not a number");
+            }
+            /* If the the number of questions is 0 then an error message is received because the
+               calculation for pointsEach has NOQ as the denominator */ 
+            catch (ArithmeticException number){
+                System.out.println("ArithmeticException: / by zero");
             }
         }
 }
