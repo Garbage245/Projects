@@ -1,6 +1,5 @@
 // Myron Sago II
 // 2/2/2026
-
 public class Pet{
     // Pet name, type, and age
     private String petName;
